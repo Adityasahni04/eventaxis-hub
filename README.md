@@ -1,18 +1,63 @@
-<b>EventAxis: Centralizing Campus Events</b> <br>
-EventAxis is a platform designed to centralize campus events, making it easier for students, clubs, and committees to participate in and manage activities. The system enhances event visibility and streamlines management <br>
-<b>Features</b> <br>
-<b>Event Browsing:</b><br>
-   View upcoming and past events <br>
-   Filter events by categories for a personalized browsing experience. <br>
-<b>User Management:</b><br>
-   Secure login and registration for students, clubs, and committees.<br>
-<b>Event Creation:</b><br>
-   Clubs and committees can register and create events.<br>
-   Events are subject to admin approval for quality control.<br>
+# 📅 EventAxis: Centralizing Campus Events
 
-Try it yourself!<br>
-Simply download the docker-compose.yml file and hit the following commands!<br>
+**EventAxis** is a centralized platform built to streamline the discovery, management, and creation of campus events. Whether you're a student seeking activities to attend, or a club looking to organize and promote events, EventAxis simplifies the entire process with an intuitive and user-friendly interface.
+
+---
+
+## 🚀 Features
+
+### 🔍 Event Browsing
+
+* Explore **upcoming** and **past events** effortlessly.
+* Filter events by **category** for a personalized experience.
+
+### 👥 User Management
+
+* Secure **registration and login** for students, clubs, and committees.
+* Role-based access: general users, event organizers, and administrators.
+
+### 🛠️ Event Creation & Approval
+
+* Clubs and committees can **create and submit** events.
+* **Admin approval** ensures quality control and event relevance.
+
+---
+
+## 🧪 Try It Yourself!
+
+### 🐳 Quick Start with Docker
+
+1. Download the `docker-compose.yml` file.
+2. Run the following command in your terminal:
+
 ```bash
 docker-compose up -d
 ```
-To test the application open your browser and visit [http://localhost:80](http://localhost:80).
+
+3. Open your browser and visit:
+
+👉 [http://localhost:80](http://localhost:80)
+
+You're now up and running with EventAxis!
+
+---
+
+## 📁 Project Structure
+
+```bash
+EventAxis/
+├── backend/               # APIs, authentication, and event logic
+├── frontend/              # React/Vue/Angular frontend UI
+├── docker-compose.yml     # Docker setup for deployment
+├── README.md              # You're here!
+└── ...
+```
+
+---
+
+## 👨‍💻 Contributor
+
+* **Aarush Luthra** – Core Developer 💡
+
+---
+
