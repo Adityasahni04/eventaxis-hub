@@ -42,19 +42,6 @@ You're now up and running with EventAxis!
 
 ---
 
-## 📁 Project Structure
-
-```bash
-EventAxis/
-├── backend/               # APIs, authentication, and event logic
-├── frontend/              # React/Vue/Angular frontend UI
-├── docker-compose.yml     # Docker setup for deployment
-├── README.md              # You're here!
-└── ...
-```
-
----
-
 ## 👨‍💻 Contributor
 
 * **Aarush Luthra** – Core Developer 💡
